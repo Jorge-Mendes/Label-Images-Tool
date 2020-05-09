@@ -1,4 +1,4 @@
-<img width="30" alt="Label-Images-Tool Logo" src="/resources/icons/app.png"> Label-Images-Tool
+<img width="30" alt="Label-Images-Tool Logo" src="https://raw.githubusercontent.com/Jorge-Mendes/Label-Images-Tool/master/resources/icons/app.png"> Label-Images-Tool
 ========
 
 [![PyPI Label](https://img.shields.io/pypi/v/labelimg.svg "PyPI Label")](https://pypi.python.org/pypi/labelimg) [![Build dLabel](https://img.shields.io/travis/tzutalin/labelImg.svg "Build Label")](https://travis-ci.org/tzutalin/labelImg)
@@ -10,7 +10,7 @@ Annotations are saved as TXT files in <a href="https://pjreddie.com/darknet/yolo
 
 
 
-<img height="225" alt="Demo screenshot 1" title="Demo screenshot" src="/demos/demo1.jpg"> <img height="225" alt="Demo screenshot 2" title="Demo screenshot" src="/demos/demo2.jpg">
+<img height="225" alt="Demo screenshot 1" title="Demo screenshot" src="https://raw.githubusercontent.com/Jorge-Mendes/Label-Images-Tool/master/demos/demo1.jpg"> <img height="225" alt="Demo screenshot 2" title="Demo screenshot" src="https://raw.githubusercontent.com/Jorge-Mendes/Label-Images-Tool/master/demos/demo2.jpg">
 
 
 ## Table of Contents

@@ -47,6 +47,10 @@ from libs.ustr import ustr
 from libs.hashableQListWidgetItem import HashableQListWidgetItem
 
 __appname__ = 'Label-Images-Tool'
+__version__ = '1.9.0'
+__author__ = 'Tzuta Lin'
+__update__ = 'Jorge Mendes'
+
 
 class WindowMixin(object):
 
@@ -100,7 +104,7 @@ class MainWindow(QMainWindow, WindowMixin):
         self._noSelectionSlot = False
         self._beginner = True
         self.screencastViewer = self.getAvailableScreencastViewer()
-        self.screencast = "https://youtu.be/p0nR2YsCY_U"
+        self.screencast = "https://jorge-mendes.github.io/Label-Images-Tool/"
 
         # Load predefined classes to the list
         self.loadPredefinedClasses(defaultPrefdefClassFile)
@@ -615,8 +619,8 @@ class MainWindow(QMainWindow, WindowMixin):
         subprocess.Popen(self.screencastViewer + [self.screencast])
 
     def showInfoDialog(self):
-        msg = u'Name:{0} \nApp Version:{1} \n{2} '.format(__appname__, __version__, sys.version_info)
-        QMessageBox.information(self, u'Information', msg)
+        msg = u'App name:\t{0} \nApp version:\t{1} \n\nAuthor:\t\t{2} \nUpdate:\t\t{3} \n\nSystem info:\t{4} '.format(__appname__, __version__, __author__, __update__, sys.version)
+        QMessageBox.information(self, u'About {0}'.format(__appname__), msg)
 
     def createShape(self):
         assert self.beginner()
