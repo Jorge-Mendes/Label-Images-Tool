@@ -10,7 +10,7 @@ Annotations are saved as TXT files in <a href="https://pjreddie.com/darknet/yolo
 
 
 
-<img height="225" alt="Demo screenshot 1" title="Demo screenshot" src="https://raw.githubusercontent.com/Jorge-Mendes/Label-Images-Tool/master/demos/demo1.jpg"> <img height="225" alt="Demo screenshot 2" title="Demo screenshot" src="https://raw.githubusercontent.com/Jorge-Mendes/Label-Images-Tool/master/demos/demo2.jpg">
+<img height="180" alt="Demo screenshot 1" title="Demo screenshot" src="https://raw.githubusercontent.com/Jorge-Mendes/Label-Images-Tool/master/demos/demo1.jpg"> <img height="180" alt="Demo screenshot 2" title="Demo screenshot" src="https://raw.githubusercontent.com/Jorge-Mendes/Label-Images-Tool/master/demos/demo2.jpg">
 
 
 ## Table of Contents
