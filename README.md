@@ -6,9 +6,11 @@
 Label-Images-Tool is a graphical image annotation tool and label object bounding boxes in images.
 It is written in Python and uses Qt for its graphical interface.
 
-Annotations are saved as TXT files in [YOLO](https://pjreddie.com/darknet/yolo/ "YOLO: Real-Time Object Detection") format or as XML files in [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/ "The PASCAL Visual Object Classes Homepage") format (used by [ImageNet](http://www.image-net.org/ "ImageNet homepage")).
+Annotations are saved as TXT files in <a href="https://pjreddie.com/darknet/yolo/" title ="YOLO: Real-Time Object Detection" target="_blank">YOLO</a> format or as XML files in <a href="http://host.robots.ox.ac.uk/pascal/VOC/" title ="The PASCAL Visual Object Classes Homepage" target="_blank">PASCAL VOC</a> format (used by <a href="http://www.image-net.org/" title ="ImageNet homepage" target="_blank">ImageNet</a>).
 
-<img width="430" alt="Demo screenshot 1" title="Demo screenshot" src="https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo3.jpg"> <img width="430" alt="Demo screenshot 2" title="Demo screenshot" src="https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo.jpg">
+
+
+<img height="225" alt="Demo screenshot 1" title="Demo screenshot" src="https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo3.jpg"> <img height="225" alt="Demo screenshot 2" title="Demo screenshot" src="https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo.jpg">
 
 
 ## Table of Contents
@@ -38,7 +40,7 @@ Annotations are saved as TXT files in [YOLO](https://pjreddie.com/darknet/yolo/ 
 
 ### Build from source
 
-Linux/Ubuntu/Mac requires at least [Python 2.6](https://www.python.org/getit/) and has been tested with [PyQt 4.8](https://www.riverbankcomputing.com/software/pyqt/intro). However, [Python 3 or above](https://www.python.org/getit/) and [PyQt 5](https://pypi.org/project/PyQt5/) are strongly recommended.
+Linux/Ubuntu/Mac requires at least <a href="https://www.python.org/getit/" title ="Python download" target="_blank">Python 2.6</a> and has been tested with <a href="https://www.riverbankcomputing.com/software/pyqt/intro" title ="PyQt download" target="_blank">PyQt 4.8</a>. However, <a href="https://www.python.org/getit/" title ="Python download" target="_blank">Python 3 or above</a> and <a href="https://pypi.org/project/PyQt5/" title ="PyQt download" target="_blank">PyQt 5</a> are strongly recommended.
 
 #### Ubuntu Linux
 
@@ -99,7 +101,7 @@ python3 labelImg.py
 
 #### Windows
 
-Install [Python](https://www.python.org/downloads/windows/), [PyQt 5](https://www.riverbankcomputing.com/software/pyqt/download5) and [lxml](http://lxml.de/installation.html).
+Install <a href="https://www.python.org/downloads/windows/" title ="Python download" target="_blank">Python</a>, <a href="https://www.riverbankcomputing.com/software/pyqt/download5" title ="PyQt download" target="_blank">PyQt 5</a> and <a href="http://lxml.de/installation.html" title ="lxml download" target="_blank">lxml</a>.
 
 Open cmd and go to the [Label-Images-Tool](#-label-images-tool) directory
 ```
@@ -112,7 +114,7 @@ python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
 #### Windows + Anaconda
 
-Download and install [Anaconda](https://www.anaconda.com/download/#download) (Python 3+)
+Download and install <a href="https://www.anaconda.com/download/#download" title ="Anaconda download" target="_blank">Anaconda</a> (Python 3+)
 
 Open the Anaconda Prompt and go to the [Label-Images-Tool](#-label-images-tool) directory
 
@@ -149,14 +151,14 @@ tzutalin/py2qt4
 make qt4py2;./labelImg.py
 ```
 
-You can pull the image which has all of the installed and required dependencies. Watch [labelImg Docker Demo](https://youtu.be/nw1GexJzbCI).
+You can pull the image which has all of the installed and required dependencies. Watch <a href="https://youtu.be/nw1GexJzbCI" title ="labelImg Docker Demo video" target="_blank">labelImg Docker Demo</a>.
 
 
 ## Usage
 
 ### Demo
 
-[Label and annotate images](https://youtu.be/p0nR2YsCY_U)
+<a href="https://youtu.be/p0nR2YsCY_U" title ="Label and annotate images video" target="_blank">Label and annotate images</a>
 
 ### Steps (YOLO)
 
@@ -233,7 +235,7 @@ Send a pull request
 
 ## License
 
-Free software: [MIT license](https://github.com/tzutalin/labelImg/blob/master/LICENSE)
+Free software: <a href="https://github.com/tzutalin/labelImg/blob/master/LICENSE" title ="MIT license" target="_blank">MIT license</a>
 
 ## Original GitHub project
-[tzutalin/labelImg](https://github.com/tzutalin/labelImg "tzutalin/labelImg repository")
+<a href="https://github.com/tzutalin/labelImg" title ="tzutalin/labelImg repository" target="_blank">tzutalin/labelImg</a>
