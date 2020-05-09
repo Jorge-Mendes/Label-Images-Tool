@@ -1,14 +1,14 @@
 <img width="30" alt="Label-Images-Tool Logo" src="/resources/icons/app.png"> Label-Images-Tool
 ========
 
-[![PyPi Label](https://img.shields.io/pypi/v/labelimg.svg "PyPi Label")](https://pypi.python.org/pypi/labelimg) [![Build dLabel](https://img.shields.io/travis/tzutalin/labelImg.svg "Build Label")](https://travis-ci.org/tzutalin/labelImg)
+[![PyPI Label](https://img.shields.io/pypi/v/labelimg.svg "PyPI Label")](https://pypi.python.org/pypi/labelimg) [![Build dLabel](https://img.shields.io/travis/tzutalin/labelImg.svg "Build Label")](https://travis-ci.org/tzutalin/labelImg)
 
 Label-Images-Tool is a graphical image annotation tool and label object bounding boxes in images.
 It is written in Python and uses Qt for its graphical interface.
 
 Annotations are saved as TXT files in [YOLO](https://pjreddie.com/darknet/yolo/ "YOLO: Real-Time Object Detection") format or as XML files in [PASCAL VOC](http://host.robots.ox.ac.uk/pascal/VOC/ "The PASCAL Visual Object Classes Homepage") format (used by [ImageNet](http://www.image-net.org/ "ImageNet homepage")).
 
-<img width="420" alt="Demo screenshot 1" title="Demo screenshot" src="https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo3.jpg"> <img width="420" alt="Demo screenshot 2" title="Demo screenshot" src="https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo.jpg">
+<img width="430" alt="Demo screenshot 1" title="Demo screenshot" src="https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo3.jpg"> <img width="430" alt="Demo screenshot 2" title="Demo screenshot" src="https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo.jpg">
 
 ## Installation
 
@@ -75,7 +75,7 @@ python3 labelImg.py
 
 #### Windows
 
-Install [Python](https://www.python.org/downloads/windows/), [PyQt5](https://www.riverbankcomputing.com/software/pyqt/download5) and [install lxml](http://lxml.de/installation.html).
+Install [Python](https://www.python.org/downloads/windows/), [PyQt 5](https://www.riverbankcomputing.com/software/pyqt/download5) and [lxml](http://lxml.de/installation.html).
 
 Open cmd and go to the [Label-Images-Tool](#-label-images-tool) directory
 ```
@@ -180,10 +180,10 @@ You can edit the [data/predefined\_classes.txt](https://github.com/tzutalin/labe
 | w           | Create a rect box                          |
 | d           | Next image                                 |
 | a           | Previous image                             |
-| del         | Delete the selected rect box               |
-| Ctrl++      | Zoom in                                    |
-| Ctrl--      | Zoom out                                   |
-| ↑→↓←        | Keyboard arrows to move selected rect box  |
+| Del         | Delete the selected rect box               |
+| Ctrl + +    | Zoom in                                    |
+| Ctrl + -    | Zoom out                                   |
+| ↑ → ↓ ←     | Keyboard arrows to move selected rect box  |
 
 ### Verify Image
 
@@ -202,7 +202,6 @@ In case there are issues with loading the classes, you can either:
 1. From the top menu of the labelimg click on Menu/File/Reset All
 2. Remove the `.labelImgSettings.pkl` from your home directory. In Linux and Mac you can do: 
 `rm ~/.labelImgSettings.pkl`
-
 
 ### How to contribute
 
