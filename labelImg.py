@@ -281,7 +281,7 @@ class MainWindow(QMainWindow, WindowMixin):
         zoomOut = action(getStr('zoomout'), partial(self.addZoom, -10),
                          'Ctrl+-', 'zoom-out', getStr('zoomoutDetail'), enabled=False)
         zoomOrg = action(getStr('originalsize'), partial(self.setZoom, 100),
-                         'Ctrl+=', 'zoom', getStr('originalsizeDetail'), enabled=False)
+                         'Ctrl+0', 'zoom', getStr('originalsizeDetail'), enabled=False)
         fitWindow = action(getStr('fitWin'), self.setFitWindow,
                            'Ctrl+F', 'fit-window', getStr('fitWinDetail'),
                            checkable=True, enabled=False)
