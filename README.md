@@ -10,7 +10,7 @@ Annotations are saved as TXT files in <a href="https://pjreddie.com/darknet/yolo
 
 
 
-<img height="225" alt="Demo screenshot 1" title="Demo screenshot" src="https://raw.githubusercontent.com/tzutalin/labelImg/master/demos/demo1.jpg"> <img height="225" alt="Demo screenshot 2" title="Demo screenshot" src="https://raw.githubusercontent.com/tzutalin/labelImg/master/demos/demo2.jpg">
+<img height="225" alt="Demo screenshot 1" title="Demo screenshot" src="/demos/demo1.jpg"> <img height="225" alt="Demo screenshot 2" title="Demo screenshot" src="/demos/demo2.jpg">
 
 
 ## Table of Contents
@@ -204,9 +204,9 @@ You can edit the [data/predefined\_classes.txt](https://github.com/tzutalin/labe
 | Ctrl + d    | Copy the current label and rect box        |
 | v           | Flag the current image as verified         |
 | Space       | Create a rect box                          |
-| d           | Next image                                 |
-| a           | Previous image                             |
-| Del         | Delete the selected rect box               |
+| z           | Next image                                 |
+| x           | Previous image                             |
+| Delete      | Delete the selected rect box               |
 | Ctrl + +    | Zoom in                                    |
 | Ctrl + -    | Zoom out                                   |
 | ↑ → ↓ ←     | Keyboard arrows to move selected rect box  |
