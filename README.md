@@ -10,6 +10,30 @@ Annotations are saved as TXT files in [YOLO](https://pjreddie.com/darknet/yolo/ 
 
 <img width="430" alt="Demo screenshot 1" title="Demo screenshot" src="https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo3.jpg"> <img width="430" alt="Demo screenshot 2" title="Demo screenshot" src="https://raw.githubusercontent.com/tzutalin/labelImg/master/demo/demo.jpg">
 
+
+## Table of Contents
+1. [Installation](#installation)
+   * [Build from source](#build-from-source)
+      * [Ubuntu Linux](#ubuntu-linux)
+      * [macOS](#macos)
+      * [Windows](#windows)
+      * [Windows + Anaconda](#windows--anaconda)
+   * [Get from PyPI](#get-from-pypi-but-only-python30-or-above)
+   * [Use Docker](#use-docker)
+3. [Usage](#usage)
+   * [Demo](#demo)
+   * [Steps (YOLO)](#steps-yolo)
+   * [Steps (PascalVOC)](#steps-pascalvoc)
+   * [Create pre-defined classes](#create-pre-defined-classes)
+   * [Hotkeys](#hotkeys)
+   * [Verify Image](#verify-image)
+   * [Difficult](#difficult)
+   * [How to reset the settings](#how-to-reset-the-settings)
+4. [How to contribute](#how-to-contribute)
+5. [License](#license)
+6. [Original GitHub project](#original-github-project)
+
+
 ## Installation
 
 ### Build from source
@@ -134,19 +158,6 @@ You can pull the image which has all of the installed and required dependencies.
 
 [Label and annotate images](https://youtu.be/p0nR2YsCY_U)
 
-### Steps (PascalVOC)
-
-1. Build and launch using the instructions above.
-2. Click '*Change default saved annotation folder*' in Menu/File
-3. Click '*Open Dir*'
-4. Click '*Create RectBox*'
-5. Click and release left mouse to select a region to annotate the rect
-   box
-6. You can use right mouse to drag the rect box to copy or move it
-
-The annotation will be saved to the folder you specify.
-You can refer to the below hotkeys to speed up your workflow.
-
 ### Steps (YOLO)
 
 1. In `data/predefined_classes.txt` define the list of classes that will be used for your training.
@@ -160,9 +171,22 @@ Note:
 
 - Your label list shall not change in the middle of processing a list of images. When you save an image, classes.txt will also get updated, while previous annotations will not be updated.
 
-- You shouldn't use "default class" function when saving to YOLO format, it will not be referred.
+- You shouldn't use '*default class*' function when saving to YOLO format, it will not be referred.
 
-- When saving as YOLO format, "difficult" flag is discarded.
+- When saving as YOLO format, '*difficult*' flag is discarded.
+
+### Steps (PascalVOC)
+
+1. Build and launch using the instructions above.
+2. Click '*Change default saved annotation folder*' in Menu/File
+3. Click '*Open Dir*'
+4. Click '*Create RectBox*'
+5. Click and release left mouse to select a region to annotate the rect
+   box
+6. You can use right mouse to drag the rect box to copy or move it
+
+The annotation will be saved to the folder you specify.
+You can refer to the below hotkeys to speed up your workflow.
 
 ### Create pre-defined classes
 
@@ -185,7 +209,7 @@ You can edit the [data/predefined\_classes.txt](https://github.com/tzutalin/labe
 | Ctrl + -    | Zoom out                                   |
 | ↑ → ↓ ←     | Keyboard arrows to move selected rect box  |
 
-### Verify Image
+### Verify image
 
 When pressing space, the user can flag the image as verified, a green background will appear.
 This is used when creating a dataset automatically, the user can then through all the pictures and flag them instead of annotate them.
@@ -203,13 +227,13 @@ In case there are issues with loading the classes, you can either:
 2. Remove the `.labelImgSettings.pkl` from your home directory. In Linux and Mac you can do: 
 `rm ~/.labelImgSettings.pkl`
 
-### How to contribute
+## How to contribute
 
 Send a pull request
 
-### License
+## License
 
-`Free software: MIT license <https://github.com/tzutalin/labelImg/blob/master/LICENSE>`_
+Free software: [MIT license](https://github.com/tzutalin/labelImg/blob/master/LICENSE)
 
-### Original GitHub project:
+## Original GitHub project
 [tzutalin/labelImg](https://github.com/tzutalin/labelImg "tzutalin/labelImg repository")
