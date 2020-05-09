@@ -196,14 +196,14 @@ You can edit the [data/predefined\_classes.txt](https://github.com/tzutalin/labe
 
 ### Hotkeys
 
-| Key/Command | Function    |
+| Key/Command | Function                                   |
 |-------------|--------------------------------------------|
 | Ctrl + u    | Load all of the images from a directory    |
 | Ctrl + r    | Change the default annotation target dir   |
 | Ctrl + s    | Save                                       |
 | Ctrl + d    | Copy the current label and rect box        |
-| Space       | Flag the current image as verified         |
-| w           | Create a rect box                          |
+| v           | Flag the current image as verified         |
+| Space       | Create a rect box                          |
 | d           | Next image                                 |
 | a           | Previous image                             |
 | Del         | Delete the selected rect box               |
