@@ -626,6 +626,10 @@ class MainWindow(QMainWindow, WindowMixin):
         msg = u'This is the first image!'
         QMessageBox.information(self, u'Info', msg)
 
+    def showLastImageDialog(self):
+        msg = u'This is the last image!'
+        QMessageBox.information(self, u'Info', msg)
+
     def createShape(self):
         assert self.beginner()
         self.canvas.setEditing(False)
@@ -1311,6 +1315,8 @@ class MainWindow(QMainWindow, WindowMixin):
             currIndex = self.mImgList.index(self.filePath)
             if currIndex + 1 < len(self.mImgList):
                 filename = self.mImgList[currIndex + 1]
+            else:
+                self.showLastImageDialog()
 
         if filename:
             self.loadFile(filename)
