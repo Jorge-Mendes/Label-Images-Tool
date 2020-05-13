@@ -622,6 +622,10 @@ class MainWindow(QMainWindow, WindowMixin):
         msg = u'App name:\t{0} \nApp version:\t{1} \n\nAuthor:\t\t{2} \nUpdate:\t\t{3} \n\nSystem info:\t{4} '.format(__appname__, __version__, __author__, __update__, sys.version)
         QMessageBox.information(self, u'About {0}'.format(__appname__), msg)
 
+    def showFirstImageDialog(self):
+        msg = u'This is the first image!'
+        QMessageBox.information(self, u'Info', msg)
+
     def createShape(self):
         assert self.beginner()
         self.canvas.setEditing(False)
@@ -1279,6 +1283,8 @@ class MainWindow(QMainWindow, WindowMixin):
             filename = self.mImgList[currIndex - 1]
             if filename:
                 self.loadFile(filename)
+        else:
+            self.showFirstImageDialog()
 
     def openNextImg(self, _value=False):
         # Proceding prev image without dialog if having any label
