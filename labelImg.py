@@ -1234,7 +1234,7 @@ class MainWindow(QMainWindow, WindowMixin):
         self.mImgList = self.scanAllImages(dirpath)
         self.openNextImg()
         for imgPath in self.mImgList:
-            item = QListWidgetItem(imgPath)
+            item = QListWidgetItem(imgPath.split('\\')[-1])
             self.fileListWidget.addItem(item)
 
     def verifyImg(self, _value=False):
