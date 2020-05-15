@@ -26,7 +26,7 @@ matrix:
       before_install:
         # ref: https://www.continuum.io/downloads
         - wget https://repo.continuum.io/archive/Anaconda2-4.2.0-Linux-x86_64.sh -O anaconda2.sh
-        # ref: http://conda.pydata.org/docs/help/silent.html
+        # ref: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/use-conda-with-travis-ci.html
         - bash anaconda2.sh -b -p $HOME/anaconda2
         - export PATH="$HOME/anaconda2/bin:$PATH"
         # ref: http://stackoverflow.com/questions/21637922/how-to-install-pyqt4-in-anaconda
@@ -55,7 +55,7 @@ matrix:
       before_install:
         # ref: https://www.continuum.io/downloads
         - wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh -O anaconda3.sh
-        # ref: http://conda.pydata.org/docs/help/silent.html
+        # ref: https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/use-conda-with-travis-ci.html
         - bash anaconda3.sh -b -p $HOME/anaconda3
         - export PATH="$HOME/anaconda3/bin:$PATH"
         # ref: http://stackoverflow.com/questions/21637922/how-to-install-pyqt4-in-anaconda
