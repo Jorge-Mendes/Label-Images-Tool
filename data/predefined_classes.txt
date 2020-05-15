@@ -1,2 +1,4 @@
-cat
-dog
+no_shoots
+shoots_smaller_than_10
+shoots_greater_than_10
+fruit_set
