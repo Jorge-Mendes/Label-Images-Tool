@@ -27,7 +27,7 @@ matrix:
         # ref: https://www.continuum.io/downloads
         - curl -O https://repo.continuum.io/archive/Anaconda2-4.2.0-Linux-x86_64.sh
         # ref: http://conda.pydata.org/docs/help/silent.html
-        - /bin/bash Anaconda2-4.2.0-Linux-x86_64.sh -b -p $HOME/anaconda2
+        - bash Anaconda2-4.2.0-Linux-x86_64.sh -b -p $HOME/anaconda2
         - export PATH="$HOME/anaconda2/bin:$PATH"
         # ref: http://stackoverflow.com/questions/21637922/how-to-install-pyqt4-in-anaconda
         - conda create -y -n labelImg-py2qt4 python=2.7
@@ -56,7 +56,7 @@ matrix:
         # ref: https://www.continuum.io/downloads
         - curl -O https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh
         # ref: http://conda.pydata.org/docs/help/silent.html
-        - /bin/bash Anaconda3-4.2.0-Linux-x86_64.sh -b -p $HOME/anaconda3
+        - bash Anaconda3-4.2.0-Linux-x86_64.sh -b -p $HOME/anaconda3
         - export PATH="$HOME/anaconda3/bin:$PATH"
         # ref: http://stackoverflow.com/questions/21637922/how-to-install-pyqt4-in-anaconda
         - conda create -y -n labelImg-py3qt5 python=3.5
