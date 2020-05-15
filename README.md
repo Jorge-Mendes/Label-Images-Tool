@@ -1,7 +1,10 @@
 <img width="30" alt="Label-Images-Tool Logo" src="https://raw.githubusercontent.com/Jorge-Mendes/Label-Images-Tool/master/resources/icons/app.png"> Label-Images-Tool
 ========
 
-[![PyPI Label](https://img.shields.io/pypi/v/labelimg.svg "PyPI Label")](https://pypi.python.org/pypi/labelimg) [![Build dLabel](https://img.shields.io/travis/tzutalin/labelImg.svg "Build Label")](https://travis-ci.org/tzutalin/labelImg)
+[![Build Status](https://travis-ci.org/Jorge-Mendes/Label-Images-Tool.svg?branch=master "Build Status")](https://travis-ci.org/Jorge-Mendes/Label-Images-Tool)
+[![Contributors](https://img.shields.io/github/contributors/Jorge-Mendes/Label-Images-Tool.svg)](https://github.com/Jorge-Mendes/Label-Images-Tool/graphs/contributors)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Jorge-Mendes/Label-Images-Tool/blob/master/LICENSE)
+
 
 Label-Images-Tool is a graphical image annotation tool and label object bounding boxes in images.
 It is written in Python and uses Qt for its graphical interface.
